@@ -14,7 +14,10 @@ exports.loadParams = function(req, res, next) {
 exports.navbar = function() {
 	return ["<div class='navbar'>",
 	"<p><a href='/'>home</a></p>",
-	"<p><a href='/mult'>Multiplication</a></p>",	
+	"<p><a href='/mult'>Multiplication</a></p>",
+	"<p><a href='/square'>Square`s</a></p>",
+	"<p><a href='/factorial'>Factorial`s</a></p>",
+	"<p><a href='/fibonacci'>Fibonacci`s</a></p>",		
 	"</div>"].join('\n');
 };
 
