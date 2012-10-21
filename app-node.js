@@ -15,6 +15,8 @@ var server = http.createServer(function(req, res) {
 		require('./factorial-node').get(req, res);		
 	} if (req.requrl.pathname === "/fibonacci"){
 		require('./fibo-node').get(req, res);		
+	} if (req.requrl.pathname === "/fibonacciAsync"){
+		require('./fibo-node2').get(req, res);		
 	} else{
 		res.writeHead(404, { 'Conten-Type' : 'text/plan' });
 		res.end("bad URL " + req.url);

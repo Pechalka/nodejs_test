@@ -17,7 +17,8 @@ exports.navbar = function() {
 	"<p><a href='/mult'>Multiplication</a></p>",
 	"<p><a href='/square'>Square`s</a></p>",
 	"<p><a href='/factorial'>Factorial`s</a></p>",
-	"<p><a href='/fibonacci'>Fibonacci`s</a></p>",		
+	"<p><a href='/fibonacci'>Fibonacci`s</a></p>",	
+	"<p><a href='/fibonacciAsync'>Fibonacci`s Async</a></p>",			
 	"</div>"].join('\n');
 };
 
