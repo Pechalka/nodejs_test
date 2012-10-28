@@ -1,0 +1,11 @@
+<% if (req.a && req.b) { %>
+	<p>
+		<%= req.a %> * <%= req.b %> = <%= req.result %>
+	</p>
+<% } %>
+<p>Enter number to multiply</p>
+<form name='mult' action='/mult' method='get' >
+	A: <input type='text' name='a'/><br/>
+	B: <input type='text' name='b'/><br/>
+	<input type='submit' value='Submit' />
+</form>

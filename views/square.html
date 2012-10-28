@@ -1,0 +1,9 @@
+<% if (req.a) { %>
+	<p>
+		<%= req.a %> * <%= req.a %> = <%= req.result %>
+	</p>
+<% } %>
+<p>Enter number to see its square</p>
+<form name='mult' action='/square' method='get' >
+A: <input type='text' name='a'/><br/>
+</form>

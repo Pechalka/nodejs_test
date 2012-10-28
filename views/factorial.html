@@ -1,0 +1,9 @@
+<% if (req.a) { %>
+	<p>
+		<%= req.a %> factorial = <%= req.result %>
+	</p>
+<% } %>
+<p>Enter number to see it`s factorial</p>
+<form name='mult' action='/factorial' method='get' >
+A: <input type='text' name='a'/><br/>
+</form>
